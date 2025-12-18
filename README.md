@@ -1,6 +1,19 @@
 # Freecam
 [![Crowdin](https://badges.crowdin.net/freecam/localized.svg)](https://crowdin.com/project/freecam)
 
+> [!NOTE]
+>
+> Hey there! This is a little fork to fix an incompatibility with Freecam and
+> the [Re:Animal](https://github.com/Octo-Studios/re-animal) mod, which is used
+> by the [Craftoria](https://github.com/TeamAOF/Craftoria) modpack since 1.29.0.
+> See [TeamAOF/Craftoria#755](https://github.com/TeamAOF/Craftoria/issues/755) for
+> details on the crash that this fork solves.
+>
+> You can find the .jar files in the [Releases](https://github.com/thegamecracks/Freecam/releases) page.
+> Alternatively, you can clone this repository, checkout the 1.21 branch,
+> and run [`gradlew build`](https://docs.neoforged.net/docs/gettingstarted/)
+> to build your own binaries.
+
 This mod allows you to control your camera separately from your player. While it is enabled, you can fly around and travel through blocks within your render distance. Disabling it will restore you to your original position. This can be useful for quickly inspecting builds and exploring your world. 
 
 This mod works in multiplayer, but may be considered cheating on some servers.
